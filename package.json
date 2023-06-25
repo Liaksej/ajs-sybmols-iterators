@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
+    "test": " echo \"No need to test\" && exit 1",
     "lint": "eslint .",
     "prepare": "husky install",
     "build": "webpack --mode production"
